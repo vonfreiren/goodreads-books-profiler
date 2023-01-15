@@ -13,7 +13,7 @@ parent_url = 'https://www.goodreads.com'
 with open('config.yaml') as f:
     data = yaml.load(f, Loader=yaml.FullLoader)
 
-filepath = data['path']
+filepath = data['save_path_local']
 url = data['url_goodreads']
 
 
