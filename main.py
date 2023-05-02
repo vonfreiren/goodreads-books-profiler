@@ -17,6 +17,7 @@ filepath = data['save_path_local']
 url = data['url_goodreads']
 
 
+
 headers = {'User-agent': 'Mozilla/5.0'}
 soup = BeautifulSoup(requests.get(url, headers=headers).content, "html.parser")
 books = soup.select('img[id*="cover_review"]')
