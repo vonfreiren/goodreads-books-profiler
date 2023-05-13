@@ -1,3 +1,7 @@
-save_path_local: '/Users/javier/IdeaProjects/vonfreiren.github.io/_books'
-url_goodreads: 'https://www.goodreads.com/review/list/136789999-javier-freire-alvarez?order=d&ref=nav_mybooks&shelf=read&sort=date_read'
+url_goodreads: 'https://www.goodreads.com/review/list/136789999-javier-freire-alvarez?order=d&page=1&ref=nav_mybooks&shelf=read&sort=date_read&utf8=%E2%9C%93'
 
+url_goodreads_to_read: 'https://www.goodreads.com/review/list/136789999-javier-freire-alvarez?page=1&per_page=30&shelf=to-read&utf8=%E2%9C%93'
+save_path_local_books_to_read: '/Users/javier/IdeaProjects/vonfreiren.github.io/_includes/books_to_read.html'
+
+
+save_path_local: '/Users/javier/React/web/src/components/Books'
