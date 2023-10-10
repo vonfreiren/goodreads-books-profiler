@@ -27,7 +27,7 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
 
 # chrome_options.add_experimental_option("excludeSwitches", ["disable-popup-blocking"])")
-driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options)
+driver = webdriver.Chrome(options=chrome_options)
 driver.get(url)
 driver.execute_script("window.scrollBy(0, 5000)")
 

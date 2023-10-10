@@ -6,4 +6,11 @@ Small Python script that reads the Goodreads profile and generates markdown file
 ### Steps
 
 1. Run **main_json.py** to generate the json file with the books read.
-2. Run **main_to_md.py** to generate the json and markdown files for the books wishlist.
+2. Run **main_read_NEW.py** to generate the json file with the books read.
+
+
+### Deprecated
+
+1. **main.py** 
+2. **main_json_js.py** 
+3. **main_to_read.py**

@@ -11,6 +11,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+
+
 parent_url = 'https://www.goodreads.com'
 
 #Create config.yaml with:
@@ -52,7 +54,7 @@ def retrieve_book_info_js(book_url):
         chrome_options.add_argument("--window-size=%s" % WINDOW_SIZE)
 
         # chrome_options.add_experimental_option("excludeSwitches", ["disable-popup-blocking"])")
-        driver = webdriver.Chrome('./chromedriver', chrome_options=chrome_options)
+        driver = webdriver.Chrome(options=chrome_options)
         driver.get(final_url)
 
         wait = WebDriverWait(driver, 20)  # 10 seconds maximum wait time
