@@ -4,4 +4,7 @@
     <orderEntry type="jdk" jdkName="Python 3.11 (books-goodreads)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="370e07b0-7621-46c6-bdc1-54be90683247" />
+  </component>
 </module>

@@ -98,6 +98,8 @@ for i in range(1, 4):
             img_link, description = retrieve_book_info_js(book_url)
             if img_link is None:
                 img_link, description = retrieve_book_info_js(book_url)
+            if img_link is None:
+                img_link, description = retrieve_book_info_js(book_url)
             author = book.findNext('td', {'class': "field author"}).findNext('a').text
             order = counter
             counter = counter+1
@@ -106,6 +108,9 @@ for i in range(1, 4):
             formatted_date = date.strftime('%Y-%m-%d %H:%M:%S')
             formatted_date = formatted_date+' -0400'
             merged_link = parent_url + link
+
+            if img_link is None:
+                print(title)
 
             dict_book = {'title': title, "cover": img_link, 'link': merged_link, 'author': author, 'description': description}
             if dict_book not in list_books:
